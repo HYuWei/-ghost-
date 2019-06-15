@@ -1,0 +1,116 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+body{background: #ebebeb;}
+img{vertical-align: middle;border: none;max-width: 100%;}
+header{width: 100%;height: 222px;background: url("../images/1.jpg") center -130px no-repeat;background-size: cover;overflow: hidden;}
+header a{display: block;width: 60px;height: 68px;margin:77px auto;}
+@media screen and (max-width: 700px) {
+    header{background-position: center top;}
+}
+nav{width: 100%;height: 58px;background: #fff;border-bottom: 2px solid #e1e1e1;text-align: center;line-height: 58px;font-size: 14px;box-sizing: border-box;}
+nav div{width: 28px;height: 58px;display: none;margin: auto;cursor: pointer;}
+
+
+nav a{padding: 0 20px;height: 58px;display:inline-block;color: #505050;}
+nav a:hover{color: #e67e22}
+.abottom{border-bottom: 2px solid #e67e22}
+
+
+@media screen and (max-width: 780px){
+    nav{padding: 0 30px;overflow: hidden;}
+    nav a{display: block;text-align: left;padding: 0;}
+    nav div{display: block;}
+}
+
+
+.main{width: 1140px;overflow: hidden;box-sizing: border-box;margin: 30px auto 10px;}
+.main article{width: 750px;float: left;margin: 0 30px 30px 0;overflow: hidden;min-height: 500px;}
+.main article section{width: 100%;overflow: hidden;padding: 35px 35px 0 35px;box-sizing: border-box;background: #fff;margin-bottom: 30px;}
+.main article section h2{font-size: 36px;text-align: center;font-weight: normal;line-height: 40px;}
+.main article section h2 a{color: #303030;}
+.main article section .time{font-size: 12px;color: #959595;line-height: 50px;height: 50px;text-align: center;}
+.main article section .time a{color: #e67e22;margin-right: 5px;}
+.main article section img{display: block;margin: 25px 0;}
+.main article section div{font-size: 18px;color: #444;line-height: 28px;margin: 25px 0;}
+.main article section .more{display: block;width: 86px;height: 36px;color: #fff;background: #e67e22;text-align: center;border-radius: 3px;line-height: 36px;font-size: 14px;margin:25px 0;}
+.main article section .more:hover{background: #000;}
+.main aside{width: 360px;min-height: 500px;float: right;overflow: hidden;}
+.main article section .footer{border-top: 1px solid #ebebeb;height: 60px;line-height: 60px;font-size: 12px;}
+.main article section .footer a{color: #959595;}
+.main article section .footer a:hover{text-decoration: underline;color: #e67e22;}
+.main article section .diva{width:169px;height: 36px; }
+.main article section div .ldiv{width: 126px;height: 36px;float: left;}
+.main article section div .rdiv{width: 36px;height: 36px;float: right;}
+@media screen and (min-width: 990px) and (max-width: 1200px)
+{
+    .main{width: 940px;}
+    .main article{width: 615px;}
+    .main aside{width: 295px;}
+}
+@media screen and (min-width: 750px) and (max-width: 990px)
+{
+    .main{width: 720px;}
+    .main article{width: 720px;margin-right: 0;}
+    .main aside{width:720px;}
+}
+
+@media screen and (max-width:750px)
+{
+    .main{width: 100%;padding: 0 5%;}
+    .main article{width:100%;margin-right: 0;}
+    .main aside{width:100%;}
+}
+
+
+.main aside .atitle{width: 100%;overflow: hidden;padding: 20px;background: #fff;margin-bottom: 20px;box-sizing: border-box}
+.main aside .atitle p{width: 100%;height: 40px;line-height: 40px;font-size: 20px;border-bottom: 1px solid #e0e0e0;position: relative;margin-bottom: 28px;}
+.main aside .atitle p i{position: absolute;left: 0;
+    bottom:-1px;width: 80px;height: 1px;background: #e67e22;}
+.main aside .atitle span{font-size: 12px;color: #b0b0b0;}
+.main aside .atitle a{display: block;color: #e67e22;font-size: 14px;}
+.main aside .atitle a.atitlea{line-height: 40px;}
+.main aside .atitle a sub{font-size: 20px;}
+.main aside .atitle .atitlea1{width: 100%;height: 37px;background: #e67e22;display: block;text-align: center;line-height: 37px;color: #fff;border-radius: 3px;transition: .3s;}
+.main aside .atitle .atitlea1:hover{background: #000;}
+.main aside .atitle .atitlea2{display:inline-block;padding:0 10px;line-height: 26px;background: #fff;border: 1px solid #e0e0e0;margin-bottom: 8px;margin-right: 8px;font-size: 13px;color: #b0b0b0;transition: .2s;}
+.main aside .atitle .atitlea2:hover{background: #e67e22;color: #fff;}
+/*翻页*/
+.main article .fanye{width: 169px;height: 36px;margin: auto;}
+.main article .fanye1{width: 126px;height: 36px;background: #e67e22;float: left;margin-right: 7px;font-size: 12px;text-align: center;line-height: 36px;color: white;}
+.main article .fanye2{width: 36px;height: 36px;background: #e67e22;float: right;text-align: center;line-height: 36px;color: white;cursor: pointer;}
+/*底部链接*/
+.bottom{width: 100%;overflow: hidden;background: rgb(32,32,32)}
+.bottom .bottomdiv{width: 1140px;overflow: hidden;margin: auto;padding: 36px 30px;box-sizing: border-box;}
+.bottom .bottomdiv div{width: 300px;overflow: hidden;float: left;margin-right: 90px;margin-bottom: 10px;}
+.bottom .bottomdiv div:last-child{margin-right: 0;}
+.bottom .bottomdiv div p{width: 100%;height:34px;border-bottom: 1px solid rgb(48,48,48);color: white;font-size: 22px;margin-bottom: 20px;position: relative;}
+.bottom .bottomdiv div p i{position: absolute;width: 92px;height: 1px;background: #e67e22;bottom: -1px;left: 0;}
+.bottom .bottomdiv div a{display: inline-block;padding: 7px 5px;font-size: 14px;background: rgb(32,32,32);color: #959595;margin-right: 10px;margin-bottom: 7px;transition: 0.2s}
+.bottom .bottomdiv div a:hover{background: #e67e22;color: white;}
+.bottom .bottomdiv .bottomdiv2 a{border: 1px solid rgb(48,48,48);}
+
+@media screen and (min-width: 990px) and (max-width: 1200px){
+    .bottom .bottomdiv{width:940px;margin: auto}
+    .bottom .bottomdiv .bottomdiv1{width:230px;}
+    .bottom .bottomdiv .bottomdiv2{width:230px; }
+    .bottom .bottomdiv .bottomdiv3{width:230px; }
+}
+@media screen and (min-width: 765px) and (max-width: 990px)
+{
+    .bottom .bottomdiv{width: 720px;margin: auto;}
+    .bottom .bottomdiv .bottomdiv1{width:160px; }
+    .bottom .bottomdiv .bottomdiv2{width:160px; }
+    .bottom .bottomdiv .bottomdiv3{width:160px; }
+}
+@media screen and (max-width:750px)
+{
+    .bottom .bottomdiv{width: 100%;}
+    .bottom .bottomdiv .bottomdiv1{width:100%;}
+    .bottom .bottomdiv .bottomdiv2{width:100%;}
+    .bottom .bottomdiv .bottomdiv3{width:100%;}
+}
+
+
+.dibu{width: 100%;background: rgb(17,17,17);line-height: 80px;text-align: center;padding:30px 20px;box-sizing: border-box;}
+.dibu p{font-size: 12px;line-height: 20px;color: #4e5555}
